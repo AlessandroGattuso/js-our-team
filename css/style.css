@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.myContainer{
+  color: rgb(85, 85, 85);
+}
+
+.grid{
+  width: 70%;
+}
+
+.myCard{
+  border-radius: 0px;
+  width: calc(100%/3 - 20px);
+}
+
+.myCard img{
+  border-radius: 0px;
+}
+
+.card-role{
+  font-size: 15px;
+}
