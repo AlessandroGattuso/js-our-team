@@ -15,6 +15,7 @@
 .myCard{
   border-radius: 0px;
   width: calc(100%/3 - 20px);
+  min-width: 150px;
 }
 
 .myCard img{
