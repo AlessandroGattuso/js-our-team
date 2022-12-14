@@ -1,3 +1,4 @@
+
 const cardsData = [
   {
     name: 'Wayne Barnett',
@@ -33,10 +34,10 @@ for(let k in cardsData){
    let card = `<div class="card myCard">
                   <img src="./img/${image}.jpg" class="card-img-top" alt="Image not found">
                   <div class="card-body text-center">
-                      <p class="fs-4">${cardsData[k].name}</p>
+                      <h4>${cardsData[k].name}</h4>
                       <p class="card-role">${cardsData[k].role}</p>
                   </div>
                </div>`;
 
-  grid.innerHTML += card;
+   grid.innerHTML += card;
 }
