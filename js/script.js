@@ -29,7 +29,7 @@ const cardsData = [
 const grid = document.querySelector('.grid');
 
 for(let k in cardsData){
-   //The image files name is composed by the lowercase name and role and in the middle put '-';
+   //The image files name is composed by the lowercase name and role and in the middle raplace ' ' with '-';
    let image = (cardsData[k].name + " " + cardsData[k].role).toLowerCase().replace(/ /g,"-");
    let card = `<div class="card myCard">
                   <img src="./img/${image}.jpg" class="card-img-top" alt="Image not found">
